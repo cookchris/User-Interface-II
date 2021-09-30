@@ -1,1 +1,169 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+
+    *{
+        border: 2px soild grey;
+    }
+
+    /* General styles */
+    html{
+        font-size:62.5%;
+    }
+    body{
+        font-size:1.6rem;
+        background-color:#FBFFFB;
+        line-height:1.5;
+        color:hsl(0, 75%, 65%);
+        font-family: 'Source Sans Pro', sans-serif;
+        border: 2px soild grey;
+
+    }
+    a{
+        font-family: 'Source Sans Pro', sans-serif;
+        color:#266035;
+        text-decoration: none;
+    }
+    h1, h2, h3{
+        font-family: 'Oxygen', sans-serif;
+        color:#266035;
+    }
+    h1{
+        color:hsl(120, 2%, 8%);
+        font-size:5rem;
+    }
+    h2{
+        font-size:3.5rem;
+    }
+    h3{
+        font-size:2.5rem;
+    }
+    section{
+        padding:4% 0;
+    }
+    
+    body{
+        border: 2px solid gray;
+    }
+
+    /* nav styles*/
+
+    nav .links  {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        width: 50%;
+        /* margin: 0; */
+        flex
+    }
+
+    .name{
+        width: 50%;
+        display: flex;
+    }
+
+    /* .gal1{
+        width:400px;
+        display: flex;
+        justify-content:space-between;
+        margin-top:5rem;
+    }
+    
+    .gal1, .img1{
+        margin:0 auto;
+        height: 15vh;
+        width: 15vh;
+        justify-content: space-between;
+        margin-left:10vh;
+        margin-right:6vh;
+    } */
+    .gallery{
+        width:400px;
+        display: flex;
+        justify-content:space-between;
+        margin-top:5rem;
+    }
+    
+    .gallery img{
+        margin:0 auto;
+        height: 30vh;
+        width: 30vh;
+        justify-content: space-evenly;
+        margin-left:10vh;
+        margin-right:6vh;
+    }
+    
+    .gallery h3{
+        margin: 0 auto;
+        justify-content: space-around;
+        margin-left: 15vh;
+        margin-right:15vh;
+    }
+    
+    .secondgallery {
+        width:400px;
+        display: flex;
+        justify-content:space-between;
+        margin-top:5rem;
+    }
+    .secondgallery img{
+        margin:0 auto;
+        display: flex;
+        height: 30vh;
+        width: 30vh;
+        justify-content: space-between;
+        margin-left:10vh ;
+        margin-right:6vh 
+    }
+    .secondgallery h3{
+        margin: 0 auto;
+        justify-content: space-around;
+        margin-left: 15vh;
+        margin-right:15vh;
+    }
+    
+
+
+
+   
+
+
+
+
+
+
+
+    #top{
+        background-image: url('https://images.unsplash.com/photo-1566938611484-080d628f3c28?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80');
+       
+        background-repeat: no-repeat;
+        width: 50vw;
+        align-items: center;
+        
+
+    }
+    
+   
+
