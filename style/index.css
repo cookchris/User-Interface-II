@@ -1,1 +1,207 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 1px solid grey;
+
+}
+
+
+    /* General styles */
+    html{
+        font-size:62.5%;
+    }
+    body{
+        font-size:1.6rem;
+        background-color:hsl(211, 44%, 47%);
+        line-height:1.5;
+        color:hsl(0, 75%, 65%);
+        font-family: 'Source Sans Pro', sans-serif;
+        border: 2px soild grey;
+
+    }
+    a{
+        font-family: 'Source Sans Pro', sans-serif;
+        color:#030303;
+        text-decoration: none;
+    }
+    h1, h2, h3{
+        font-family: 'Oxygen', sans-serif;
+        color:#fc5b05;
+    }
+    h1{
+        color:#fc5b05;
+        font-size:5rem;
+    }
+    h2{
+        font-size:3.5rem;
+    }
+    h3{
+        font-size:2rem;
+    }
+    section{
+        padding:4% 0;
+    }
+    
+    body{
+        border: 2px solid gray;
+    }
+    button{
+        padding: 10% 20%;
+        margin-top: 5%;
+        color: white;
+        background-color: teal;
+        border-radius:40% ;
+    }
+    
+
+    /* header styles*/
+    nav{
+        display: flex;
+        justify-content:space-between;
+
+    }
+    .name{
+        width: 50%;
+        display: flex;
+    }
+    .links{
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    
+          
+    
+    
+    /* top section styles */
+    #frog{
+        height: 80vh;
+        padding:20rem;
+        margin-top: 5rem;
+         background-image: url('https://images.unsplash.com/photo-1566938611484-080d628f3c28?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80');
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+    
+
+
+        /* Styles for both Galleries */
+
+
+    .gallery{
+        width:100%;
+        display: flex;
+        justify-content:space-between;
+        margin-top:5rem;
+       justify-content: center;
+    }
+    
+    .gallery img{
+        margin:0 auto;
+        height: 40vh;
+        width: 40vh;
+        justify-content: space-evenly;
+        margin-left:10vh;
+        margin-right:6vh;
+    }
+    
+    .gallery h3{
+        margin: 0 auto;
+        justify-content: space-around;
+        margin-left: 15vh;
+        margin-right:15vh;
+        display: flex;
+
+    }
+    
+    .secondgallery {
+        width:100%;
+        display: flex;
+        justify-content:space-between;
+        margin-top:5rem;
+       justify-content: center;
+    }
+    .secondgallery img{
+        margin:0 auto;
+        height: 30vh;
+        width: 30vh;
+        justify-content: space-evenly;
+        margin-left:10vh ;
+        margin-right:6vh 
+    }
+    .secondgallery h3{
+        margin: 0 auto;
+        justify-content: space-around;
+        margin-left: 15vh;
+        margin-right:15vh;
+    }
+
+
+    /* footer styles  */
+    
+    #foot button{
+        padding: 5% 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 37%;
+        color: white;
+        background-color: teal;
+        border-radius:40% ;
+        display: flex;
+        justify-content: center;
+       
+    }
+    
+    
+    
+
+
+
+   
+
+
+
+
+
+
+
+   
+
