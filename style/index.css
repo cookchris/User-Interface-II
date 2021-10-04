@@ -129,6 +129,12 @@ footer, header, hgroup, menu, nav, section {
          */
 
     /* } */
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+    }
     
 
     nav{
@@ -137,17 +143,21 @@ footer, header, hgroup, menu, nav, section {
     }
     
     .topsection{
+        
+       
+        background-image: url(https://images.unsplash.com/photo-1525220120926-2c9ab3ab7bfe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1588&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
         display: flex;
         justify-content: center;
+        align-items: center;
+        height: 50vh;
+        text-align: center;
     }
-    .img-button{
-        background-image: url(https://images.unsplash.com/photo-1525220120926-2c9ab3ab7bfe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1588&q=80);
-        background-size: cover;
-        color: white;
-        font-size: large;
-        width: 600px;
-        height: 400px;
+    section{
+        padding: 4% 0;
     }
+    
 
     footer{
         background-color: gray ;
@@ -160,6 +170,21 @@ footer, header, hgroup, menu, nav, section {
         flex-direction: row;
         justify-content: space-evenly;
         padding: 20px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .row div{
+        width:30%;
+        margin: 2% 0;
+    }
+    html{
+        font-size: 62.5%;
+    }
+    body{
+        font-size: 1.6rem;
+    }
+    h1{
+        font-size: 4rem;
     }
     .portfolio-element{
         text-align: center;
@@ -184,6 +209,10 @@ footer, header, hgroup, menu, nav, section {
     }
 
     /*media queries*/
+    @media(max-width:800px){
+
+
+    }
 
     @media(max-width:500px){
         nav{
@@ -191,19 +220,33 @@ footer, header, hgroup, menu, nav, section {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            
            
         }
         .links{
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
+            align-items: center;
+            width:100%;
+
+        }
+        .links button{
+            width: 40%;
+            margin: 1% 0;
         }
 
-        .row{
-            width: ;
-            flex-direction: column;
-            flex-flow: column wrap;
+        .topsection{
+            width: 80%;
+            margin: 0 auto;
         }
+        .row div{
+            width: 40%;
+        }
+        
+
+
+        
+        
 
        
     }
