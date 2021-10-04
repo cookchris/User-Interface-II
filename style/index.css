@@ -1,4 +1,4 @@
-/* Add CSS styling here */
+/* Add CSS styling here
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -19,25 +19,25 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
+} */
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
+} */
 
-*{
+/* *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     max-width: 100%;
     border: 1px solid grey;
 
-}
+} */
 
 
     /* General styles */
-    html{
+    /* html{
         font-size:62.5%;
     }
     body{
@@ -84,114 +84,207 @@ footer, header, hgroup, menu, nav, section {
     }
     
 
-    /* header styles*/
+    
+    /*Media Query*/
+
+    /* @media(max-width:500px){ */
+        /*Header Section Styles*/
+        /* nav.main{
+            flex-direction: column;
+            justify-content: center;
+            padding-top: 4%;
+            height: 30vh
+        }
+       .links{
+            width:50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding-top: 8%;
+            height: ;
+        } */
+
+        /*top section*/
+        /* #frog, .titles{
+           padding: 10%;
+           margin-right: 2rem;
+           margin-left: 2rem;
+           
+        }
+
+        .titles{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        } */
+
+            /*gallery styles*/
+            
+        /* .gallery{
+            flex-direction: column;
+            flex-wrap: 
+           
+        }    
+         */
+
+    /* } */
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+    }
+    
+
     nav{
         display: flex;
-        justify-content:space-between;
-
+        justify-content: space-between;
     }
-    .name{
-        width: 50%;
-        display: flex;
-    }
-    .links{
-        width: 50%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+    
+    .topsection{
         
-    }
-    
-          
-    
-    
-    /* top section styles */
-    #frog{
-        height: 80vh;
-        padding:20rem;
-        margin-top: 5rem;
-         background-image: url('https://images.unsplash.com/photo-1566938611484-080d628f3c28?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80');
-        background-size:contain;
+       
+        background-image: url(https://images.unsplash.com/photo-1477554193778-9562c28588c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
         background-repeat: no-repeat;
-        background-position: bottom;
+        background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 50vh;
         text-align: center;
-        
+    }
+    section{
+        padding: 4% 0;
     }
     
 
+    footer{
+        background-color: #4682b4 ;
+        padding: 20px;
+        text-align: center;
+    }
 
-        /* Styles for both Galleries */
-
-
-    .gallery{
-        width:100%;
+    .row{
         display: flex;
-        justify-content:space-between;
-        margin-top:5rem;
-       justify-content: center;
-    }
-    
-    .gallery img{
-        margin:0 auto;
-        height: 40vh;
-        width: 40vh;
+        flex-direction: row;
         justify-content: space-evenly;
-        margin-left:10vh;
-        margin-right:6vh;
-    }
-    
-    .gallery h3{
-        margin: 0 auto;
-        justify-content: space-around;
-        margin-left: 15vh;
-        margin-right:15vh;
-        display: flex;
-
-    }
-    
-    .secondgallery {
-        width:100%;
-        display: flex;
-        justify-content:space-between;
-        margin-top:5rem;
-       justify-content: center;
-    }
-    .secondgallery img{
-        margin:0 auto;
-        height: 30vh;
-        width: 30vh;
+        padding: 20px;
+        flex-wrap: wrap;
         justify-content: space-evenly;
-        margin-left:10vh ;
-        margin-right:6vh 
     }
-    .secondgallery h3{
-        margin: 0 auto;
-        justify-content: space-around;
-        margin-left: 15vh;
-        margin-right:15vh;
+    .row div{
+        width:30%;
+        margin: 2% 0;
+    }
+    html{
+        font-size: 62.5%;
+    }
+    body{
+        font-size: 1.6rem;
+        background-color: #a9a9a9;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    .portfolio-element{
+        text-align: center;
     }
 
+    button{
+        background-color: white;
+        color: black;
+        border:1px solid black;
+        padding:5px 10px
+    }
 
-    /* footer styles  */
-    
-    #foot button{
-        padding: 5% 10%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        margin-left: 37%;
+    button:hover{
+        background-color: black;
         color: white;
-        background-color: teal;
-        border-radius:40% ;
-        display: flex;
-        justify-content: center;
+        border:1px solid white;
+    }
+
+    button a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    /*media queries*/
+    @media(max-width:800px){
+        .row div{
+            padding: 4% 0;
+            
+        }
+
+        nav{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .links{
+          
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width:100%;
+            margin-top: 1%;
+    
+           
+        }
+
+        .links button{
+            width: 40%;
+            margin: 1% 0;
+        }
+
+        .topsection{
+            width: 85%;
+            margin: 0 auto;
+            margin-top: 4%
+        }
+        .row div{
+            width: 40%;
+        }
+
+    }
+
+    @media(max-width:500px){
+        nav{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+           
+        }
+        .links{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width:100%;
+
+        }
+        .links button{
+            width: 40%;
+            margin: 1% 0;
+        }
+
+        .topsection{
+            width: 80%;
+            margin: 0 auto;
+        }
+        .row div{
+            width: 40%;
+        }
+        
+
+
+        
+        
+
        
     }
-    
-    
-    
 
 
 
