@@ -145,7 +145,7 @@ footer, header, hgroup, menu, nav, section {
     .topsection{
         
        
-        background-image: url(https://images.unsplash.com/photo-1525220120926-2c9ab3ab7bfe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1588&q=80);
+        background-image: url(https://images.unsplash.com/photo-1477554193778-9562c28588c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
@@ -160,7 +160,7 @@ footer, header, hgroup, menu, nav, section {
     
 
     footer{
-        background-color: gray ;
+        background-color: #4682b4 ;
         padding: 20px;
         text-align: center;
     }
@@ -182,6 +182,7 @@ footer, header, hgroup, menu, nav, section {
     }
     body{
         font-size: 1.6rem;
+        background-color: #a9a9a9;
     }
     h1{
         font-size: 4rem;
@@ -210,7 +211,41 @@ footer, header, hgroup, menu, nav, section {
 
     /*media queries*/
     @media(max-width:800px){
+        .row div{
+            padding: 4% 0;
+            
+        }
 
+        nav{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .links{
+          
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width:100%;
+            margin-top: 1%;
+    
+           
+        }
+
+        .links button{
+            width: 40%;
+            margin: 1% 0;
+        }
+
+        .topsection{
+            width: 85%;
+            margin: 0 auto;
+            margin-top: 4%
+        }
+        .row div{
+            width: 40%;
+        }
 
     }
 
